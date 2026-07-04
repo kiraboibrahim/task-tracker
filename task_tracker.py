@@ -46,6 +46,7 @@ def cmd_add(args):
         "id": new_id,
         "description": description,
         "done": False,
+        "priority": "normal"
     })
     save_tasks(tasks)
     print(f"Added task #{new_id}: {description}")
@@ -60,7 +61,7 @@ def cmd_list(args):
 
     for task in tasks:
         box = "x" if task["done"] else " "
-        print(f"[{box}] #{task['id']}  {task['description']}")
+        print(f"[{box}] ({task["priority"]}) #{task['id']}  {task['description']}")
     return 0
 
 
