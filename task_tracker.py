@@ -40,7 +40,7 @@ def cmd_add(args):
 
     description = " ".join(args)
     tasks = load_tasks()
-    new_id = len(tasks) + 1
+    new_id = max((t["id"] for t in tasks), default=0) + 1
 
     tasks.append({
         "id": new_id,
