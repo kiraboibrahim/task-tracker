@@ -11,7 +11,8 @@ Usage:
     python task_tracker.py add "Buy milk"
     python task_tracker.py list
     python task_tracker.py done 1
-    python task_tracker.py remove 1
+    python task_tracker.py remove 1'
+    python task_tracker.py done 3
 """
 
 import json
