@@ -13,6 +13,7 @@ Usage:
     python task_tracker.py done 1
     python task_tracker.py remove 1'
     python task_tracker.py done 3
+    python task_tracker.py done 2
 """
 
 import json
