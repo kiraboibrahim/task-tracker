@@ -43,3 +43,7 @@ in `LAB.md`:
 2. A docstring block worth editing two different ways on two branches
    (Part 4, guaranteed-conflict exercise).
 
+## Contribution Guidelines
+
+* Fork the project
+* Create a pull request
